@@ -14,7 +14,7 @@ int main()
     for(int i=0; i<N; i++)
     scanf("%d",&palindrom[i]);
     
-    for(int i=0; i < (N-1); i++)
+    for(int i=0; i<N; i++)
     {
        if(palindrom[i] == palindrom[N - 1 - i])
        result = 1;
